@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../dist/tailwind.css" rel="stylesheet" />
+    <link href="../styles/main.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#232830] roboto-condensed">
+    <header
+      class="w-full h-fit pt-8 pb-4 px-24 flex justify-between font-light text-white"
+    >
+      <p>Writings.dev</p>
+      <div class="flex gap-6">
+        <p>categories</p>
+        <p>articles</p>
+        <p>about</p>
+      </div>
+    </header>
+    <main class="w-full h-fit">
+      <section class="w-full h-fit flex flex-col items-center mb-16">
+        <img class="w-40 h-40" src="../assets/logo.png" alt="Logo principal" />
+        <h1 class="pb-4 text-rose-500 text-5xl tracking-wide italic">
+          Writings for Developers
+        </h1>
+        <p class="text-white tracking-widest font-light">
+          Curated collection of articles for busy developers
+        </p>
+      </section>
+      <nav
+        class="pt-2 flex w-full h-fit text-gray-500 text-lg italic gap-12 border-t border-gray-700 justify-center items-center tracking-wider"
+      >
+        <div class="flex gap-1">
+          <span class="w-5">
+            <svg
+              fill="#909090"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#909090"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M0 0h4v4H0V0zm0 6h4v4H0V6zm0 6h4v4H0v-4zM6 0h4v4H6V0zm0 6h4v4H6V6zm0 6h4v4H6v-4zm6-12h4v4h-4V0zm0 6h4v4h-4V6zm0 6h4v4h-4v-4z"
+                  fill-rule="evenodd"
+                ></path>
+              </g>
+            </svg>
+          </span>
+          <span class="w-5">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#909090"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.5 8.25H4.5V6.75H19.5V8.25Z"
+                  fill="#909090"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.5 12.75H4.5V11.25H19.5V12.75Z"
+                  fill="#909090"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.5 17.25H4.5V15.75H19.5V17.25Z"
+                  fill="#909090"
+                ></path>
+              </g>
+            </svg>
+          </span>
+        </div>
+        <p>JavaScript</p>
+        <p>DevOps</p>
+        <p>Cloud</p>
+        <p>Terraform</p>
+        <p>Architecture</p>
+        <p>Scalability</p>
+        <p>Explainers</p>
+      </nav>
+      <section class="max-w-screen-lg mx-auto grid grid-cols-3 gap-6 mt-16">
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img src="../assets/card1img.png" alt="Imagen de ejemplo 1" />
+          </figure>
+          <h2 class="font-bold px-4">
+            Build continuous integration pipelines with GitHub Action
+          </h2>
+          <p class="px-4 pt-2 text-sm">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card2img.png"
+              alt="Imagen de ejemplo 2"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">Python for the Absolute beginners</h2>
+          <p class="px-4 pt-2 text-sm">
+            Python is the most popular programming language out there and it is
+            used for so many different industries.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card3img.png"
+              alt="Imagen de ejemplo 3"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">Docker from Zero to Hero</h2>
+          <p class="px-4 pt-2 text-sm">
+            Learn what is Docker and how Docker is used in the whole software
+            development process.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card4img.png"
+              alt="Imagen de ejemplo 4"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">
+            Build continuous integration pipelines with GitHub Action
+          </h2>
+          <p class="px-4 pt-2 text-sm">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card5img.png"
+              alt="Imagen de ejemplo 5"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">
+            Build continuous integration pipelines with GitHub Action
+          </h2>
+          <p class="px-4 pt-2 text-sm">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card6img.png"
+              alt="Imagen de ejemplo 6"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">
+            Build continuous integration pipelines with GitHub Action
+          </h2>
+          <p class="px-4 pt-2 text-sm">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card7img.png"
+              alt="Imagen de ejemplo 7"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">
+            Build continuous integration pipelines with GitHub Action
+          </h2>
+          <p class="px-4 pt-2 text-sm">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card8img.png"
+              alt="Imagen de ejemplo 8"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">
+            Build continuous integration pipelines with GitHub Action
+          </h2>
+          <p class="px-4 pt-2 text-sm">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="bg-white h-full rounded-2xl flex flex-col justify-evenly">
+          <figure class="p-4">
+            <img
+              src="../assets/card9img.png"
+              alt="Imagen de ejemplo 9"
+              class="rounded-2xl"
+            />
+          </figure>
+          <h2 class="font-bold px-4">
+            Build continuous integration pipelines with GitHub Action
+          </h2>
+          <p class="px-4 pt-2 text-sm">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="flex text-sm px-4 py-4 gap-4">
+            <p>June 24, 2022</p>
+            <p>•</p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div
+          class="col-span-3 flex justify-center italic text-lg text-gray-500 pt-8 pb-24"
+        >
+          <p class="p-3">Previous</p>
+          <p class="p-3">1</p>
+          <p class="p-3 text-rose-400 border-t border-rose-400">2</p>
+          <p class="p-3">3</p>
+          <p class="p-3">4</p>
+          <p class="p-3">5</p>
+          <p class="p-3">Next</p>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="w-full h-fit flex justify-around text-white border-t border-gray-700 pt-8 pb-20"
+    >
+      <div class="flex gap-4 items-center">
+        <p class="text-lg">writings.dev</p>
+        <p class="bg-cyan-700 rounded-md p-1 text-sm">by @FacundoIglesias</p>
+      </div>
+        <a href="https://www.linkedin.com/in/facundoiglesias21/" class="w-10 flex bg-cyan-700 rounded-md p-2 text-xl items-center cursor-pointer">
+          <svg
+            fill="#ffffff"
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 552.77 552.77"
+            xml:space="preserve"
+            stroke="#ffffff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g>
+                  <path
+                    d="M17.95,528.854h71.861c9.914,0,17.95-8.037,17.95-17.951V196.8c0-9.915-8.036-17.95-17.95-17.95H17.95 C8.035,178.85,0,186.885,0,196.8v314.103C0,520.816,8.035,528.854,17.95,528.854z"
+                  ></path>
+                  <path
+                    d="M17.95,123.629h71.861c9.914,0,17.95-8.036,17.95-17.95V41.866c0-9.914-8.036-17.95-17.95-17.95H17.95 C8.035,23.916,0,31.952,0,41.866v63.813C0,115.593,8.035,123.629,17.95,123.629z"
+                  ></path>
+                  <path
+                    d="M525.732,215.282c-10.098-13.292-24.988-24.223-44.676-32.791c-19.688-8.562-41.42-12.846-65.197-12.846 c-48.268,0-89.168,18.421-122.699,55.27c-6.672,7.332-11.523,5.729-11.523-4.186V196.8c0-9.915-8.037-17.95-17.951-17.95h-64.192 c-9.915,0-17.95,8.035-17.95,17.95v314.103c0,9.914,8.036,17.951,17.95,17.951h71.861c9.915,0,17.95-8.037,17.95-17.951V401.666 c0-45.508,2.748-76.701,8.244-93.574c5.494-16.873,15.66-30.422,30.488-40.649c14.83-10.227,31.574-15.343,50.24-15.343 c14.572,0,27.037,3.58,37.393,10.741c10.355,7.16,17.834,17.19,22.436,30.104c4.604,12.912,6.904,41.354,6.904,85.33v132.627 c0,9.914,8.035,17.951,17.949,17.951h71.861c9.914,0,17.949-8.037,17.949-17.951V333.02c0-31.445-1.982-55.607-5.941-72.48 S535.836,228.581,525.732,215.282z"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
