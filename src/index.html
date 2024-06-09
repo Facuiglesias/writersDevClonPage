@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../dist/tailwind.css" rel="stylesheet" />
+    <link href="../styles/main.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#232830] roboto-condensed">
+    <header
+      class="w-full h-fit pt-8 pb-4 px-24 flex justify-between font-light text-white"
+    >
+      <p>Writings.dev</p>
+      <div class="flex gap-6">
+        <p>categories</p>
+        <p>articles</p>
+        <p>about</p>
+      </div>
+    </header>
+    <main class="w-full h-fit">
+      <section class="w-full h-fit flex flex-col items-center mb-16">
+        <img class="w-40 h-40" src="../assets/logo.png" alt="Logo principal" />
+        <h1 class="pb-4 text-rose-500 text-5xl tracking-wide italic">
+          Writings for Developers
+        </h1>
+        <p class="text-white tracking-widest font-light">
+          Curated collection of articles for busy developers
+        </p>
+      </section>
+      <nav
+        class="pt-2 flex w-full h-fit text-gray-500 font-light italic gap-4 border-t border-gray-700 justify-center"
+      >
+        <span></span>
+        <span></span>
+        <p>JavaScript</p>
+        <p>DevOps</p>
+        <p>Cloud</p>
+        <p>Terraform</p>
+        <p>Architecture</p>
+        <p>Scalability</p>
+        <p>Explainers</p>
+      </nav>
+    </main>
+  </body>
+</html>
